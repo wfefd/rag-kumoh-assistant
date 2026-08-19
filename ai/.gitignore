@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+
+# ChromaDB / local vector store
+chroma_db/
+chroma/
+*.sqlite3
+
+# Java / Spring
+build/
+.gradle/
+out/
+*.log
+
+# React / Node
+node_modules/
+dist/
+.env.local
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
