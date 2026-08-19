@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: civil-ai
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/civil_ai?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: test1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+ai:
+  server:
+    url: http://localhost:8000
+
+crawler:
+  qna-cookie: "WMONID=jOVm4xrN_xZ; locale=ko; develop_preview_mode=N; ko_visited=20260607135529609001; _common_visited=20260607140609851001; JSESSIONID=EPDjoro8FF1fzFh6hs39nFEapY566eNPxVZjIxzNnnfh44NaTThuWb3z9uQCYid7.a3Vtb2hfaG9tZS9IT01FMQ=="
+
+document:
+  converter:
+    libre-office-path: "C:/Program Files/LibreOffice/program/soffice.exe"
+
+ocr:
+  tesseract:
+    datapath: "C:/Program Files/Tesseract-OCR/tessdata"
+    language: "kor+eng"

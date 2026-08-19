@@ -1,0 +1,34 @@
+# Java / Spring Boot
+backend/.gradle/
+backend/build/
+backend/out/
+backend/*.iml
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Python / FastAPI
+ai-server/venv/
+ai-server/__pycache__/
+ai-server/**/*.pyc
+ai-server/.pytest_cache/
+
+# ChromaDB local data
+ai-server/chroma_db/
+
+# Environment files
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# MySQL / local data
+*.sql

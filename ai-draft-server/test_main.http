@@ -1,0 +1,18 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/ai/draft
+Accept: application/json
+Content-Type: application/json
+
+{
+  "inquiryId": 1001,
+  "title": "로그인 오류",
+  "content": "비밀번호를 변경했는데도 로그인 실패가 반복됩니다."
+}
+
+###

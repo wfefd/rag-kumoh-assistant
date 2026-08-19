@@ -1,0 +1,128 @@
+[
+  {
+    "id": "FAQ-1",
+    "document": "Source Type: FAQ\nCategory: 계정/로그인 문의\nQuestion: 비밀번호를 변경했는데 로그인에 실패합니다.\nAnswer: 비밀번호를 다시 확인한 뒤 5분 정도 후 재로그인해 주시기 바랍니다. 문제가 계속되면 학사 시스템 담당 부서에 문의해 주세요.\nKeywords: 로그인, 비밀번호, 계정, 접속",
+    "metadata": {
+      "source_type": "FAQ",
+      "source_id": 1,
+      "category": "계정/로그인 문의",
+      "title": "비밀번호를 변경했는데 로그인에 실패합니다.",
+      "is_active": true
+    },
+    "embedding": [
+      0.571662,
+      0.45733,
+      0.057166,
+      0.0,
+      0.628828,
+      0.228665,
+      0.114332,
+      0.0
+    ]
+  },
+  {
+    "id": "FAQ-2",
+    "document": "Source Type: FAQ\nCategory: 증명서/서류 문의\nQuestion: 재학증명서는 어디에서 발급하나요?\nAnswer: 학생 포털의 증명서 발급 메뉴 또는 교내 무인 발급기를 이용하면 재학증명서를 발급받을 수 있습니다.\nKeywords: 증명서, 재학, 발급, 서류",
+    "metadata": {
+      "source_type": "FAQ",
+      "source_id": 2,
+      "category": "증명서/서류 문의",
+      "title": "재학증명서는 어디에서 발급하나요?",
+      "is_active": true
+    },
+    "embedding": [
+      0.526152,
+      0.375823,
+      0.075165,
+      0.0,
+      0.601317,
+      0.225494,
+      0.375823,
+      0.150329
+    ]
+  },
+  {
+    "id": "NOTICE-101",
+    "document": "Source Type: NOTICE\nCategory: 수강/학사 문의\nTitle: 2026학년도 1학기 수강신청 일정 안내\nContent: 수강신청은 5월 2일부터 5월 4일까지 진행되며, 학년별 상세 시간은 포털 공지를 확인해 주시기 바랍니다.\nKeywords: 수강, 수강신청, 학사, 시간표",
+    "metadata": {
+      "source_type": "NOTICE",
+      "source_id": 101,
+      "category": "수강/학사 문의",
+      "title": "2026학년도 1학기 수강신청 일정 안내",
+      "is_active": true
+    },
+    "embedding": [
+      0.290957,
+      0.581914,
+      0.509175,
+      0.145479,
+      0.290957,
+      0.436436,
+      0.145479,
+      0.0
+    ]
+  },
+  {
+    "id": "NOTICE-102",
+    "document": "Source Type: NOTICE\nCategory: 운영시간 문의\nTitle: 시험 기간 행정실 운영시간 연장 안내\nContent: 시험 기간 동안 행정실 운영시간은 오전 9시부터 오후 7시까지로 연장됩니다.\nKeywords: 행정실, 운영시간, 마감, 운영",
+    "metadata": {
+      "source_type": "NOTICE",
+      "source_id": 102,
+      "category": "운영시간 문의",
+      "title": "시험 기간 행정실 운영시간 연장 안내",
+      "is_active": true
+    },
+    "embedding": [
+      0.399043,
+      0.159617,
+      0.558661,
+      0.159617,
+      0.399043,
+      0.558661,
+      0.079809,
+      0.0
+    ]
+  },
+  {
+    "id": "HISTORY-201",
+    "document": "Source Type: HISTORY\nCategory: 시스템 오류 문의\nInquiry Title: 포털 로그인 후 흰 화면만 표시됩니다.\nInquiry Content: 로그인은 되지만 메뉴가 뜨지 않고 흰 화면만 보여서 이용이 어렵습니다.\nAnswer Content: 브라우저 캐시를 삭제한 뒤 다시 접속하도록 안내했고, 이후 정상적으로 처리되었습니다.\nKeywords: 포털, 오류, 화면, 캐시",
+    "metadata": {
+      "source_type": "HISTORY",
+      "source_id": 201,
+      "category": "시스템 오류 문의",
+      "title": "포털 로그인 후 흰 화면만 표시됩니다.",
+      "is_active": true
+    },
+    "embedding": [
+      0.580042,
+      0.193347,
+      0.241684,
+      0.096674,
+      0.725052,
+      0.14501,
+      0.048337,
+      0.096674
+    ]
+  },
+  {
+    "id": "HISTORY-202",
+    "document": "Source Type: HISTORY\nCategory: 계정/로그인 문의\nInquiry Title: 비밀번호 변경 후에도 로그인이 되지 않습니다.\nInquiry Content: 비밀번호를 바꾼 뒤 모바일과 PC 모두에서 로그인 실패가 반복되고 있습니다.\nAnswer Content: 비밀번호 변경 반영까지 수 분이 걸릴 수 있어 10분 뒤 다시 시도하도록 안내했습니다.\nKeywords: 로그인, 비밀번호, 모바일, 계정",
+    "metadata": {
+      "source_type": "HISTORY",
+      "source_id": 202,
+      "category": "계정/로그인 문의",
+      "title": "비밀번호 변경 후에도 로그인이 되지 않습니다.",
+      "is_active": true
+    },
+    "embedding": [
+      0.613508,
+      0.33035,
+      0.141579,
+      0.188772,
+      0.613508,
+      0.283158,
+      0.047193,
+      0.0
+    ]
+  }
+]
